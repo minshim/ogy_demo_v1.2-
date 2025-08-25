@@ -247,8 +247,8 @@ bottom: 10px;
   .map::after {
     width: 220px;
     height: 450px;
-bottom: -70px;      
-    right: 30px; 
+bottom: -80px;      
+    right: 20px; 
 
   }
 }
@@ -269,13 +269,10 @@ bottom: -70px;
   pointer-events: none;
 }
 
-.today::after {
-
-}
 
 @media screen and (max-width: 525px) {
-  .today::after{
-    top: 40%;     
+  .today{
+      
     right: 25px; 
   }
 }
