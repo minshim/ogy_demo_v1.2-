@@ -232,7 +232,7 @@ a {
   height: 350px;
 bottom: 10px;      
   right: 10px; 
-  background-image: url("/bau/img/ogy_map-05.svg");
+  background-image: url("bau/img/ogy_map-05.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
