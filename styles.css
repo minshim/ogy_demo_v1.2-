@@ -156,7 +156,7 @@ figure img {
   height: 200px;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
+  border-radius: 7px;
   opacity: 1;
 }
 
@@ -230,13 +230,13 @@ a {
   position: fixed;   
   width: 280px;
   height: 350px;
-bottom: 10px;      
+bottom: -20px;      
   right: 10px; 
   background-image: url("bau/img/ogy_map-05.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -100;
+  z-index: 0;
   opacity: 1;
   mix-blend-mode: multiply;
   transform: rotate(2deg);
@@ -247,7 +247,7 @@ bottom: 10px;
   .map::after {
     width: 220px;
     height: 450px;
-bottom: -80px;      
+bottom: -100px;      
     right: 20px; 
 
   }
@@ -271,33 +271,19 @@ bottom: -80px;
 
 
 @media screen and (max-width: 525px) {
-  .today{
-      
+  .toda{
+    top: 40%;     
     right: 25px; 
   }
 }
 
-.long {
-  display: block;
-}
-.short {
-  display: none;
-}
 
 
-@media screen and (max-width: 525px) {
-  .long {
-    display: none;
-  }
-  .short {
-    display: block;
-  }
-}
 
 
 .email {
   /* margin-top: 60px; */
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   text-align: left;
 }
 
@@ -305,6 +291,6 @@ bottom: -80px;
   .email {
 width:250px;
 margin: 0 auto;
-margin-bottom: 280px;
+margin-bottom: 240px;
   }
 }
