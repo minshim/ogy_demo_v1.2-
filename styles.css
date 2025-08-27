@@ -51,7 +51,7 @@ background-color: Var(--a);
 
 .logo img{
   filter: grayscale(1);
-  width: 60px; 
+  width: 55px; 
   mix-blend-mode: multiply;
 
 }
